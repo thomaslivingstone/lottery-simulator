@@ -1,0 +1,117 @@
+
+:root {
+    --button: #50C878;
+    --button-text: white;
+}
+
+@font-face {
+    font-family: 'Special_Gothic_Condensed'; 
+    src: url('Special_Gothic_Condensed_One/SpecialGothicCondensedOne-Regular.ttf'); 
+}
+
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url('Montserrat/Montserrat-VariableFont_wght.ttf'); 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    margin: 1em 0 .75em 0;
+    font-family: 'Special_Gothic_Condensed';
+    font-size: 4em;
+}
+
+input {
+    margin-right: 1em;
+    width: 30em;
+    height: 2em;
+    font-family: 'Montserrat';
+}
+
+input[type=number] {
+    width: 4em;
+    height: 2em;
+    text-align: center;
+}
+
+.setup {
+    
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.titleTN {
+    margin-left: 1em;
+    margin-right: 20.5em;
+    
+}
+
+.display-none {
+    display: none;
+}
+
+.teamInput {
+    margin-bottom: 1em;
+}
+
+.simulateButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.simulateButton button {
+    width: 8em;
+    height: 3em;
+    margin-top: 1em;
+    color: var(--button-text);
+    background-color: var(--button);
+    border: none;
+    border-radius: 4%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.teamCard {
+    display: flex;
+    width: 40em;
+    margin: 1em 0 1em 0;
+    border-radius: .5em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.teamCard h2 {
+    margin: 0; 
+    padding: 0;
+    padding-left: 1em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2em;
+    font-family: 'Montserrat';
+}
+
+.teamCard h3 {
+    margin: 0; 
+    padding: 0;
+    padding-left: 2em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2em;
+    font-family: 'Montserrat';
+}
+
+.results > .teamCard:first-of-type {
+
+    background-color: #50C878;
+}

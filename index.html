@@ -4,11 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2025 Lottery Simulator</title>
+    <title>Draft Lottery Simulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <h1>2025 Ice Age Hockey League Draft Lottery</h1>
+
+    <div id="Setup" class="setup">
+        <div class="titles">
+            <div class="titleTN">Team Name</div>
+            <div class="titleO">Odds</div>
+        </div>
+
+        <form action="" onsubmit="simulate(event)">
+            <div class="teamInput">
+                <label for="teamName1">6.</label>
+                <input id="teamName1" type="text">
+                <input id="odds1" type="number">
+            </div>
+            <div class="teamInput">
+                <label for="teamName2">5.</label>
+                <input id="teamName2" type="text">
+                <input id="odds2" type="number">
+            </div>
+            <div class="teamInput">
+                <label for="teamName3">4.</label>
+                <input id="teamName3" type="text">
+                <input id="odds3" type="number">
+            </div>
+            <div class="teamInput">
+                <label for="teamName4">3.</label>
+                <input id="teamName4" type="text">
+                <input id="odds4" type="number">
+            </div>
+            <div class="teamInput">
+                <label for="teamName5">2.</label>
+                <input id="teamName5" type="text">
+                <input id="odds5" type="number">
+            </div>
+            <div class="teamInput">
+                <label for="teamName6">1.</label>
+                <input id="teamName6" type="text">
+                <input id="odds6" type="number">
+            </div>
+            <div class="simulateButton">
+                <button>Simulate</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="Results" class="results">
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
